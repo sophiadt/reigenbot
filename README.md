@@ -18,7 +18,7 @@ If you want to try out my chatbot, you can go [here](https://huggingface.co/soph
 ## Project Files
 
 * `model_train_upload_workflow.ipynb`: Notebook to be run in Google Colab to train and upload the model to Hugging Face's Model Hub
-* `mp100.txt`: The text file I used to gather the data from
+* `mp100.txt`: Text file used to gather data
 * `parse_script.ipynb`: Notebook to be run in Google Colab in order to turn the text file script into a workable CSV file
 * `main.py`: Script to be imported into a Repl.it Python Discord.py project
 * `stay_alive.py`: Script to keep the discord bot alive for half an hour after main.py is run
