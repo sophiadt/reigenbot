@@ -2,7 +2,7 @@
 
 An AI discord bot that can simulate a conversation with the greatest psychic of the 21st century, Reigen Arataka from [Mob Psycho 100](https://en.wikipedia.org/wiki/Mob_Psycho_100)!
 
-Credits to Lynn Zheng and her [Discord AI Chatbot tutorial](https://www.freecodecamp.org/news/discord-ai-chatbot/) for helping me build this.
+Credits to Lynn Zheng and her [Discord AI Chatbot tutorial](https://www.freecodecamp.org/news/discord-ai-chatbot/) as well as Rostyslav Neskorozhenyi and his [post about making a Rick Sanchez bot](https://towardsdatascience.com/make-your-own-rick-sanchez-bot-with-transformers-and-dialogpt-fine-tuning-f85e6d1f4e30) for helping me build this.
 
 The chatbot uses the [Microsoft DialoGPT conversational model](https://huggingface.co/microsoft/DialoGPT-medium) that has been trained with [transcripts of season 1, 2, and the OVA from this Kaggle dataset](https://www.kaggle.com/datasets/faebots/mp100-episodes). The dataset has almost 1000 lines from Reigen and I trained it for 12 epochs to give a perplexity of 1.6988. The perplexity represents how confused the model is so the higher the perplexity, the more confused the model is. With this amount of data, the model took around 40 minutes to train.
 
